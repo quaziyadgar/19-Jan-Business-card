@@ -21,6 +21,10 @@ img{
     height: 200px;
     border-radius: 50%;
 }
+#author{
+    font-size: 18px;
+    font-weight: 1000;
+}
 p{
     padding: 10px;
 }
@@ -38,4 +42,9 @@ section{
     border-radius: 10px;
     margin: 100px 20px 0 20px;
     background-color: white;
+}
+a{
+    text-decoration: none;
+    color: black;
+    margin-top: 200px;
 }

@@ -33,9 +33,9 @@ var imgElement = document.getElementById("person-img");
 var author = document.getElementById("author");
 var job = document.getElementById("job");
 var info = document.getElementById("info");
-var prevBtn = document.querySelector("#prev");
-var nextBtn = document.querySelector("#next");
-var randomBtn = document.querySelector("#surprise");
+var prevBtn = document.getElementById("prev");
+var nextBtn = document.getElementById("next");
+var randomBtn = document.getElementById("surprise");
 
 var currentIndex = 0;
 
