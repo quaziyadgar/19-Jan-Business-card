@@ -76,3 +76,11 @@ function prevClick() {
     job.innerText = reviews[currentIndex].job;
     info.innerText = reviews[currentIndex].text;
   }
+
+  var bio = document.getElementById('bio');
+  bio.addEventListener('click', fun);
+  function fun(event)
+  {
+      currentIndex;
+      updateUserDetails();
+  }
